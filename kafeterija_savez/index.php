@@ -7,9 +7,8 @@ require_once("functions/config.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kafeterija Savez - Početna</title>
+
+    <title>Kafeterija Savez Zrenjanin</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -21,9 +20,24 @@ require_once("functions/config.php");
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-        
+    <meta name="description" content="Kafeterija Savez je kafić na Bagljašu u Zrenjaninu. Nalazimo se na mirnom mestu, nudimo pristojne cene pića i odličnu atmosferu.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <script type="application/ld+json">
+    {
+    "@context": "https://kafeterija-savez.rf.gd/",
+    "@type": "Caffee",
+    "name": "Kafeterija Savez",
+    "url": "https://kafeterija-savez.rf.gd/",
+    "logo": "https://kafeterija-savez.rf.gd/images/logo-white.png"
+    }
+    </script>
+
+
 </head>
 <body>
 
@@ -36,7 +50,7 @@ require_once("functions/config.php");
             </label>
 
             <a class="logo" href="index.php">
-                <img src="images/logo-white.png" alt="Logo" class="logo-image">
+                <img src="images/logo-white.png" alt="Logo Kafića" class="logo-image">
                 Kafeterija Savez
             </a>
 
@@ -116,7 +130,7 @@ require_once("functions/config.php");
 
         <div class="welcome-box">
 
-            <div class="welcome-img" alt="welcome-img"></div>
+            <div class="welcome-img" alt="Početna slika"></div>
 
             <div class="welcome">
 
@@ -124,9 +138,9 @@ require_once("functions/config.php");
 
                 <hr class="welcome-hr">
 
-                <p class="welcome-p">
+                <h2 class="welcome-p">
                     Uživajte u našoj ponudi ukusnih pića i prijatnom ambijentu. Radujemo se što ste ovde!
-                </p>
+                </h2>
 
                 <button class="btn-welcome"><a href="#drink-container" class="a-neutral-welcome">Pogledaj cenovnik</a></button>
 
@@ -582,7 +596,7 @@ require_once("functions/config.php");
 
         <div class="instagram-div">
             <a href="https://www.instagram.com/savez.kafeterija/">
-                <img src="images/instagram-white.png" class="instagram-logo" alt="Instagram">
+                <img src="images/instagram-white.png" class="instagram-logo" alt="Posetite nas na Instagramu">
             </a>
         </div>
 
