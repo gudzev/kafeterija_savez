@@ -10,9 +10,15 @@ require_once("functions/config.php");
 
     <title>Kafeterija Savez Zrenjanin</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" media="screen">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" media="screen">
 
+    <link rel="preload" as="image" href="images/img2.webp" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..400;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -33,7 +39,7 @@ require_once("functions/config.php");
     "@type": "Caffee",
     "name": "Kafeterija Savez",
     "url": "https://kafeterija-savez.rf.gd/",
-    "logo": "https://kafeterija-savez.rf.gd/images/logo-white.png"
+    "logo": "https://kafeterija-savez.rf.gd/images/logo-white.webp"
     }
     </script>
 
@@ -50,7 +56,7 @@ require_once("functions/config.php");
             </label>
 
             <a class="logo" href="index.php">
-                <img src="images/logo-white.png" alt="Logo Kafića" class="logo-image">
+                <img src="images/logo-white.webp" alt="Logo Kafića" class="logo-image">
                 Kafeterija Savez
             </a>
 
@@ -83,7 +89,7 @@ require_once("functions/config.php");
 
             <div class="container-item">
 
-                <img src="images/drink-white.png" alt="Pića" class="container-item-img">
+                <img src="images/drink-white.webp" alt="Pića" class="container-item-img">
 
                 <p class="container-item-text">
                     Uživajte u našim vrhunskim toplim napicima, svežim sokovima i kafama.
@@ -95,7 +101,7 @@ require_once("functions/config.php");
 
             <div class="container-item">
 
-                <img src="images/review-white.png" alt="Recenzije" class="container-item-img">
+                <img src="images/review-white.webp" alt="Recenzije" class="container-item-img">
 
                 <p class="container-item-text">
                     Pročitajte iskustva gostiju i podelite svoje mišljenje o nama.
@@ -107,7 +113,7 @@ require_once("functions/config.php");
 
             <div class="container-item">
 
-                <img src="images/location-white.png" alt="Lokacija" class="container-item-img">
+                <img src="images/location-white.webp" alt="Lokacija" class="container-item-img">
 
                 <p class="container-item-text">
                     Pronađite nas u mirnom delu grada, daleko od gužve.
@@ -579,7 +585,7 @@ require_once("functions/config.php");
 
     <section class="map-container" id="map-container">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1212.8084278794831!2d20.37428807508697!3d45.38023858490034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475adb3b38067491%3A0x3b910d151c394aaa!2sKafeterija%20%22Savez%22!5e0!3m2!1ssr!2srs!4v1728080586712!5m2!1ssr!2srs" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="location-iframe"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1212.8084278794831!2d20.37428807508697!3d45.38023858490034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475adb3b38067491%3A0x3b910d151c394aaa!2sKafeterija%20%22Savez%22!5e0!3m2!1ssr!2srs!4v1728080586712!5m2!1ssr!2srs" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="location-iframe" title="Lokacija Kafića"></iframe>
 
         <p class="map-text">Lako nas pronađite na sledećoj adresi:</p>
 
@@ -596,7 +602,7 @@ require_once("functions/config.php");
 
         <div class="instagram-div">
             <a href="https://www.instagram.com/savez.kafeterija/">
-                <img src="images/instagram-white.png" class="instagram-logo" alt="Posetite nas na Instagramu">
+                <img src="images/instagram-white.webp" class="instagram-logo" alt="Posetite nas na Instagramu">
             </a>
         </div>
 
@@ -604,8 +610,8 @@ require_once("functions/config.php");
 
     </footer>
 
-    <script src="js/index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/load.js" defer></script>
+    <script src="js/index.js" async></script>
     
 </body>
 </html>
